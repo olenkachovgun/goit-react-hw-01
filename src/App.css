@@ -3,4 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: aquamarine;
+}
+.title {
+  color:blueviolet;
+  text-align: center;
+
 }

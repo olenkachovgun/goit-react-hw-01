@@ -11,7 +11,8 @@ const favouriteBooks = [
  function App () {
   return (
     <div>
-      <h2>Hello world</h2>
+      <h2>Hello world !</h2>
+      <h3 className='title'>List Books:</h3>
       <BookList books={favouriteBooks} />
     </div>
   )
