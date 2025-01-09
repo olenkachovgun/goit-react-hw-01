@@ -1,12 +1,7 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css");
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: aquamarine;
-}
-.title {
-  color:blueviolet;
-  text-align: center;
-
 }

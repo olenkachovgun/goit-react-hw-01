@@ -1,21 +1,21 @@
-
 // import React from 'react';
-import './App.css';
-import BookList from './components/ListBook/ListBook';
+import "./App.css";
 
-const favouriteBooks = [
-  { id: "id-1", name: "JS for beginners" },
-  { id: "id-2", name: "React basics" },
-  { id: "id-3", name: "React Router overview" }
-];
- function App () {
+import userData from "./userData.json";
+import Profile from "./components/Profile/Profile";
+
+const App = () => {
   return (
-    <div>
-      <h2>Hello world !</h2>
-      <h3 className='title'>List Books:</h3>
-      <BookList books={favouriteBooks} />
-    </div>
-  )
-}
+    <>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+    </>
+  );
+};
 
 export default App;
