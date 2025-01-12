@@ -1,0 +1,16 @@
+.friendName {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.stutus {
+  font-size: 12px;
+  text-align: center;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
